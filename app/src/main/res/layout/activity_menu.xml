@@ -320,33 +320,26 @@
     </ScrollView>
 
     <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="412dp"
-        android:layout_height="40dp"
-        android:layout_marginBottom="810dp"
-        android:background="#000000"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-18dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@android:drawable/divider_horizontal_textfield" />
+        app:srcCompat="@drawable/line70" />
 
     <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:layout_marginStart="181dp"
-        android:layout_marginEnd="190dp"
-        android:layout_marginBottom="810dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:id="@+id/imageView11"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/iconn1" />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottomNavigationView"
         android:layout_width="416dp"
-        android:layout_height="40dp"
+        android:layout_height="50dp"
         android:background="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent">
@@ -354,43 +347,43 @@
         <ImageView
             android:id="@+id/imageView10"
             android:layout_width="83.2dp"
-            android:layout_height="35dp"
-            android:translationX="70dp"
-            android:translationY="3dp"
-            app:srcCompat="@drawable/favorites" />
+            android:layout_height="40dp"
+            android:translationX="74dp"
+            android:translationY="6dp"
+            app:srcCompat="@drawable/favorites2" />
 
         <ImageView
             android:id="@+id/imageView8"
             android:layout_width="83.2dp"
-            android:layout_height="35dp"
+            android:layout_height="40dp"
             android:translationX="-5dp"
-            android:translationY="3dp"
-            app:srcCompat="@drawable/catalog" />
+            android:translationY="6dp"
+            app:srcCompat="@drawable/catalog2" />
 
         <ImageView
             android:id="@+id/imageView7"
             android:layout_width="83.2dp"
-            android:layout_height="35dp"
+            android:layout_height="40dp"
             android:translationX="316dp"
-            android:translationY="3dp"
-            app:srcCompat="@drawable/account" />
+            android:translationY="6dp"
+            app:srcCompat="@drawable/accaunt" />
 
         <ImageView
             android:id="@+id/imageView3"
             android:layout_width="83.2dp"
-            android:layout_height="35dp"
+            android:layout_height="40dp"
             android:onClick="onClickMenu"
-            android:translationX="155dp"
-            android:translationY="3dp"
-            app:srcCompat="@drawable/home" />
+            android:translationX="153dp"
+            android:translationY="6dp"
+            app:srcCompat="@drawable/home2" />
 
         <ImageView
             android:id="@+id/imageView4"
             android:layout_width="83.2dp"
-            android:layout_height="35dp"
-            android:translationX="244dp"
-            android:translationY="3dp"
-            app:srcCompat="@drawable/basket" />
+            android:layout_height="40dp"
+            android:translationX="230dp"
+            android:translationY="6dp"
+            app:srcCompat="@drawable/basket4" />
 
     </com.google.android.material.bottomnavigation.BottomNavigationView>
 
