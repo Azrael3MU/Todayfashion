@@ -13,6 +13,12 @@
         android:theme="@style/Theme.Todayfashion"
         tools:targetApi="31">
         <activity
+            android:name=".AccLogActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AccInActivity"
+            android:exported="false" />
+        <activity
             android:name=".CorzinaActivity"
             android:exported="false" />
         <activity

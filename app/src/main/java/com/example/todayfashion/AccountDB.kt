@@ -4,6 +4,7 @@ import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
+import java.net.PasswordAuthentication
 
 @Database(entities = [Item::class], version = 1)
 abstract class AccountDB: RoomDatabase() {
@@ -17,5 +18,6 @@ abstract class AccountDB: RoomDatabase() {
                 "TF.db"
             ).build()
         }
+        fun getUser(email:String,password:String){}
     }
 }
