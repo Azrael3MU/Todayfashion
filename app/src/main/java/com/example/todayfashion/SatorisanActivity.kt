@@ -9,5 +9,7 @@ class SatorisanActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_satorisan)
         window.statusBarColor= ContextCompat.getColor(this, R.color.black)
+        window.statusBarColor= ContextCompat.getColor(this, R.color.black)
+
     }
 }

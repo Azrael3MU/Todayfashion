@@ -7,13 +7,17 @@
     android:background="#FFFFFF"
     tools:context=".MenuActivity">
 
+
     <ScrollView
         android:id="@+id/scrollView2"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="0dp"
+        android:paddingTop="10dp"
         android:contentDescription="@string/app_name"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="-78dp">
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolbar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/bNav">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -24,7 +28,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="10dp"
-                android:layout_marginTop="75dp"
+                android:layout_marginTop="0dp"
                 android:background="@color/white"
                 android:backgroundTint="@color/white"
                 app:cardCornerRadius="12dp"
@@ -32,10 +36,9 @@
 
 
                 <ImageView
+                    android:id="@+id/satorisan"
                     android:layout_width="match_parent"
                     android:layout_height="200dp"
-                    android:layout_marginTop="1dp"
-                    android:onClick="onClickSatorisan"
                     android:scaleType="centerCrop"
                     android:src="@drawable/satorisan" />
 
@@ -52,10 +55,10 @@
                 app:cardElevation="4dp">
 
                 <ImageView
+                    android:id="@+id/dstrezzed"
                     android:layout_width="match_parent"
                     android:layout_height="200dp"
                     android:layout_marginTop="1dp"
-                    android:onClick="onClickDstrezzed"
                     android:scaleType="centerCrop"
                     android:src="@drawable/dstrezed" />
             </androidx.cardview.widget.CardView>
@@ -71,10 +74,10 @@
                 app:cardElevation="4dp">
 
                 <ImageView
+                    android:id="@+id/wushu"
                     android:layout_width="match_parent"
                     android:layout_height="200dp"
                     android:layout_marginTop="1dp"
-                    android:onClick="onClickWushu"
                     android:scaleType="centerCrop"
                     android:src="@drawable/wushu" />
 
@@ -91,10 +94,10 @@
                 app:cardElevation="4dp">
 
                 <ImageView
+                    android:id="@+id/alpha"
                     android:layout_width="match_parent"
                     android:layout_height="200dp"
                     android:layout_marginTop="1dp"
-                    android:onClick="onClickAlpha"
                     android:scaleType="centerCrop"
                     android:src="@drawable/alpha" />
 
@@ -102,15 +105,16 @@
 
             <HorizontalScrollView
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginBottom="63dp"
+                android:layout_height="wrap_content"
                 android:fadeScrollbars="true"
                 android:scrollbarSize="2dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="horizontal">
+                    android:orientation="horizontal"
+                    android:paddingBottom="5dp"
+                    android:clipToPadding="false">
 
                     <androidx.cardview.widget.CardView
                         android:layout_width="match_parent"
@@ -123,10 +127,10 @@
                         app:cardElevation="10dp">
 
                         <ImageView
+                            android:id="@+id/mini_satoriasn"
                             android:layout_width="60dp"
                             android:layout_height="60dp"
                             android:layout_marginTop="1dp"
-                            android:onClick="onClickSatorisan"
                             android:scaleType="centerCrop"
                             android:src="@drawable/satorisan_mini" />
 
@@ -143,10 +147,10 @@
                         app:cardElevation="4dp">
 
                         <ImageView
+                            android:id="@+id/mini_dstrezzed"
                             android:layout_width="60dp"
                             android:layout_height="60dp"
                             android:layout_marginTop="1dp"
-                            android:onClick="onClickDstrezzed"
                             android:scaleType="centerCrop"
                             android:src="@drawable/dstrezed_mini" />
 
@@ -163,10 +167,10 @@
                         app:cardElevation="4dp">
 
                         <ImageView
+                            android:id="@+id/mini_wushu"
                             android:layout_width="60dp"
                             android:layout_height="60dp"
                             android:layout_marginTop="1dp"
-                            android:onClick="onClickWushu"
                             android:scaleType="centerCrop"
                             android:src="@drawable/wushu_mini" />
 
@@ -183,10 +187,10 @@
                         app:cardElevation="4dp">
 
                         <ImageView
+                            android:id="@+id/mini_alpha"
                             android:layout_width="60dp"
                             android:layout_height="60dp"
                             android:layout_marginTop="1dp"
-                            android:onClick="onClickAlpha"
                             android:scaleType="centerCrop"
                             android:src="@drawable/alpha_mini" />
 
@@ -203,10 +207,10 @@
                         app:cardElevation="4dp">
 
                         <ImageView
+                            android:id="@+id/mini_add"
                             android:layout_width="60dp"
                             android:layout_height="60dp"
                             android:layout_marginTop="1dp"
-                            android:onClick="onClickAdd"
                             android:scaleType="centerCrop"
                             android:src="@drawable/add_mini" />
 
@@ -223,10 +227,10 @@
                         app:cardElevation="4dp">
 
                         <ImageView
+                            android:id="@+id/mini_scippis"
                             android:layout_width="60dp"
                             android:layout_height="60dp"
                             android:layout_marginTop="1dp"
-                            android:onClick="onClickScippis"
                             android:scaleType="centerCrop"
                             android:src="@drawable/scippis_mini" />
 
@@ -243,10 +247,10 @@
                         app:cardElevation="4dp">
 
                         <ImageView
+                            android:id="@+id/mini_noize"
                             android:layout_width="60dp"
                             android:layout_height="60dp"
                             android:layout_marginTop="1dp"
-                            android:onClick="onClickNoize"
                             android:scaleType="centerCrop"
                             android:src="@drawable/noize_mini" />
 
@@ -263,10 +267,10 @@
                         app:cardElevation="4dp">
 
                         <ImageView
+                            android:id="@+id/mini_gold_ink"
                             android:layout_width="60dp"
                             android:layout_height="60dp"
                             android:layout_marginTop="1dp"
-                            android:onClick="onClickGoldInk"
                             android:scaleType="centerCrop"
                             android:src="@drawable/gold_ink_mini" />
 
@@ -283,10 +287,10 @@
                         app:cardElevation="4dp">
 
                         <ImageView
+                            android:id="@+id/mini_churinga"
                             android:layout_width="60dp"
                             android:layout_height="60dp"
                             android:layout_marginTop="1dp"
-                            android:onClick="onClickChuringa"
                             android:scaleType="centerCrop"
                             android:src="@drawable/churing_mini" />
 
@@ -303,10 +307,10 @@
                         app:cardElevation="4dp">
 
                         <ImageView
+                            android:id="@+id/mini_del_sol"
                             android:layout_width="60dp"
                             android:layout_height="60dp"
                             android:layout_marginTop="1dp"
-                            android:onClick="onClickDelSol"
                             android:scaleType="centerCrop"
                             android:src="@drawable/del_sol_mini" />
 
@@ -319,71 +323,59 @@
         </LinearLayout>
     </ScrollView>
 
-    <ImageView
-        android:id="@+id/imageView9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="-18dp"
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/black"
+        app:layout_constraintBottom_toTopOf="@id/scrollView2"
+        app:layout_constraintTop_toBottomOf="@id/imageView9"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/line70" />
+        ><ImageView
+        android:id="@+id/search"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        app:srcCompat="@drawable/searchw"
+        android:layout_gravity="end"
+        android:layout_marginEnd="10dp"
+        /><ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/rectangle"
+        android:layout_gravity="center"/>
+    </androidx.appcompat.widget.Toolbar>
 
-    <ImageView
-        android:id="@+id/imageView11"
-        android:layout_width="wrap_content"
-        android:layout_height="34dp"
+    <FrameLayout
+        android:id="@+id/imageView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="0dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/iconn1" />
+        android:background="@color/black">
+        <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        app:srcCompat="@drawable/iconn1"
+        android:layout_gravity="center"/>
+    </FrameLayout>
+
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/bottomNavigationView"
-        android:layout_width="416dp"
+        android:id="@+id/bNav"
+        android:layout_width="match_parent"
         android:layout_height="50dp"
         android:background="@color/white"
+        app:itemActiveIndicatorStyle="@style/Base.Theme.Todayfashion"
+        app:itemIconTint="@color/black"
+        app:itemTextColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/navigation_items">
 
-        <ImageView
-            android:id="@+id/imageView10"
-            android:layout_width="83.2dp"
-            android:layout_height="40dp"
-            android:translationX="74dp"
-            android:translationY="6dp"
-            app:srcCompat="@drawable/favorites2" />
-
-        <ImageView
-            android:id="@+id/imageView8"
-            android:layout_width="83.2dp"
-            android:layout_height="40dp"
-            android:translationX="-5dp"
-            android:translationY="6dp"
-            app:srcCompat="@drawable/catalog2" />
-
-        <ImageView
-            android:id="@+id/imageView7"
-            android:layout_width="83.2dp"
-            android:layout_height="40dp"
-            android:translationX="316dp"
-            android:translationY="6dp"
-            app:srcCompat="@drawable/accaunt" />
-
-        <ImageView
-            android:id="@+id/imageView3"
-            android:layout_width="83.2dp"
-            android:layout_height="40dp"
-            android:onClick="onClickMenu"
-            android:translationX="153dp"
-            android:translationY="6dp"
-            app:srcCompat="@drawable/home2" />
-
-        <ImageView
-            android:id="@+id/imageView4"
-            android:layout_width="83.2dp"
-            android:layout_height="40dp"
-            android:translationX="230dp"
-            android:translationY="6dp"
-            app:srcCompat="@drawable/basket4" />
 
     </com.google.android.material.bottomnavigation.BottomNavigationView>
 

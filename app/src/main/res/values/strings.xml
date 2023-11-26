@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">Todayfashion</string>
     <string name="тестовая">Тестовая надпись</string>
+    <string name="menu_catalog" />
+    <string name="menu_favorites">\n</string>
+    <string name="menu_home" />
+    <string name="menu_basket" />
+    <string name="menu_acc" />
+    <string name="woman">Женщинам</string>
 </resources>
