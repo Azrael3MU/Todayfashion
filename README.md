@@ -23,7 +23,8 @@
 <br />
 <div align="center">
   <a href="https://github.com/Azrael3MU/Todayfashion">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img "![document](https://github.com/Azrael3MU/Todayfashion/assets/125397218/dda15b78-fe7c-479f-9a27-88ac44257800)"
+ alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Приложение TodayFashion</h3>
@@ -55,11 +56,9 @@
 <!-- ABOUT THE PROJECT -->
 ## О Проекте
 
-![Loading screen](https://github.com/Azrael3MU/Todayfashion/assets/125397218/ab6888a1-2239-42b8-bb50-b734fc8c7b1e)
+![Loading screen](https://github.com/Azrael3MU/Todayfashion/assets/125397218/4c92e143-6702-4894-976b-77629eb1cb9b)
 
-
-Here's a blank template to get started:![Uploading Loading screen.png…]()
- Андроид приложение для онлайн магазина одежды TodayFashion`github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
+ Андроид приложение для онлайн магазина одежды TodayFashion`
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -67,10 +66,10 @@ Here's a blank template to get started:![Uploading Loading screen.png…]()
 
 ### Инструменты
 
-* [![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white)][https://kotlinlang.org]
-* [![Android Studio](https://img.shields.io/badge/Android%20Studio-3DDC84.svg?style=for-the-badge&logo=android-studio&logoColor=white)][https://developer.android.com/studio]
-* [![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)][https://www.figma.com]
-* [![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)]][https://www.postgresql.org]
+* [![Kotlin][Kotlin.dev]][Kotlin-url]
+* [![Android Studio][Android Studio.dev]][Android Studio-url]
+* [![Figma][Figma.dev]][Figma-url]
+* [![Postgres][Postgres.dev]][Postgres-url]
 * [![Svelte][Svelte.dev]][Svelte-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -162,25 +161,20 @@ Project Link: [https://github.com/Azrael3MU/Todayfashion](https://github.com/Azr
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/linkedin_username
 [product-screenshot]: images/screenshot.png
-[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
-[Next-url]: https://nextjs.org/
-[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-[React-url]: https://reactjs.org/
-[Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
-[Vue-url]: https://vuejs.org/
-[Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
-[Angular-url]: https://angular.io/
+[Kotlin.dev]: https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white
+[Kotlin-url]: https://kotlinlang.org
+[Android Studio.dev]: https://img.shields.io/badge/Android%20Studio-3DDC84.svg?style=for-the-badge&logo=android-studio&logoColor=white
+[Android Studio-url]: https://developer.android.com/studio
+[Figma.dev]: https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white
+[Figma-url]: https://www.figma.com
+[Postgres.dev]: https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white
+[Postgres-url]: https://www.postgresql.org
 [Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
 [Svelte-url]: https://svelte.dev/
-[Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
-[Laravel-url]: https://laravel.com
-[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
-[Bootstrap-url]: https://getbootstrap.com
-[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com 
+
 Оставьте пользователям контакты и инструкции, как связаться с командой разработки.
 
-- [Богдан Звягинцев](tg://resolve?domain=bzvyagintsev) — Front-End Engineer
+
 
 ## Источники
 Если вы чем-то вдохновлялись, расскажите об этом: где брали идеи, какие туториалы смотрели, ссылки на исходники кода. 
