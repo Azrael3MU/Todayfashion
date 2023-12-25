@@ -1,33 +1,17 @@
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 <a name="readme-top"></a>
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
 
 
-
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/Azrael3MU/Todayfashion">
-    <img "![document](https://github.com/Azrael3MU/Todayfashion/assets/125397218/dda15b78-fe7c-479f-9a27-88ac44257800)"
- alt="Logo" width="80" height="80">
+ ![docs](https://github.com/Azrael3MU/Todayfashion/assets/125397218/9f52f714-c40e-43d0-b656-0014d3ff77ce)
   </a>
 
 <h3 align="center">Приложение TodayFashion</h3>
+<h3 align="center">![Component 60](https://github.com/Azrael3MU/Todayfashion/assets/125397218/acc09b8e-4e32-4804-bcb5-4ef5ba96ad36)</h3>
+
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -51,12 +35,18 @@
   </ol>
 </details>
 
-
+- uses: Platane/snk@v3
+  with:
+    github_user_name: ${{ https://github.com/Azrael3MU/Todayfashion }}
+    outputs: |
+      dist/github-snake.svg
+      dist/github-snake-dark.svg?palette=github-dark
+      dist/ocean.gif?color_snake=blue&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
 
 <!-- ABOUT THE PROJECT -->
 ## О Проекте
 
-![Loading screen](https://github.com/Azrael3MU/Todayfashion/assets/125397218/4c92e143-6702-4894-976b-77629eb1cb9b)
+Добро пожаловать в проект онлайн магазина одежды на платформе Android. Это приложение создано с использованием Android Studio и предназначено для удобного и быстрого поиска и покупки одежды.
 
  Андроид приложение для онлайн магазина одежды TodayFashion`
 
@@ -66,11 +56,10 @@
 
 ### Инструменты
 
-* [![Kotlin][Kotlin.dev]][Kotlin-url]
-* [![Android Studio][Android Studio.dev]][Android Studio-url]
-* [![Figma][Figma.dev]][Figma-url]
-* [![Postgres][Postgres.dev]][Postgres-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
+[![Kotlin][Kotlin.dev]][Kotlin-url]
+[![Android Studio][Android Studio.dev]][Android Studio-url]
+[![Figma][Figma.dev]][Figma-url]
+[![Postgres][Postgres.dev]][Postgres-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -79,32 +68,19 @@
 <!-- GETTING STARTED -->
 ## Инструкция по использованию
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Прежде чем начать использовать приложение, убедитесь, что у вас выполнены следующие предварительные условия.
 
 ### Предварительные условия
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+Устройство с операционной системой Android (версия 5.0 и выше).
+Стабильное интернет-соединение для загрузки данных о продуктах и оформления заказов.
 
 ### Установка
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/github_username/repo_name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+1 Склонируйте репозиторий на ваше устройство: git clone https://github.com/your/repository.git.
+2 Откройте проект в Android Studio.
+3 Синхронизируйте проект с вашими зависимостями и библиотеками.
+4 Подключите устройство Android или запустите эмулятор.
+5 Нажмите кнопку "Run" в Android Studio, чтобы установить и запустить приложение на устройстве или эмуляторе.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -113,33 +89,36 @@ This is an example of how to list things you need to use the software and how to
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+После успешной установки вы будете перенаправлены на главный экран приложения. Вот несколько основных функций, которые вы можете использовать:
+![Loading screen](https://github.com/Azrael3MU/Todayfashion/assets/125397218/eff9cdc4-417b-4ce7-9831-64f3c61b0c33)![HomePage](https://github.com/Azrael3MU/Todayfashion/assets/125397218/b45d04f1-b56e-4fe6-9e59-24f787e7d08c)
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+# Аутентификация и вход в аккаунт:
+для полноценного использования приложения, вам необходимо авторизоваться или создать аккаунт. Нажмите кнопку "Войти" в разделе аккаунта и введите свои учетные данные для входа, или нажмите на кнопку "Регистрация", если у вас еще нет учетной записи.
+![AutorizationPage](https://github.com/Azrael3MU/Todayfashion/assets/125397218/59451aad-7007-49d1-b095-414c89e85420)![RegistrationPage](https://github.com/Azrael3MU/Todayfashion/assets/125397218/70075e16-1b46-4251-9f4d-0a8d2de1c1ab)
+
+# Каталог:
+После входа в аккаунт вы будете перенаправлены в раздел каталога, где вы сможете просмотреть доступные продукты. Каталог организован по категориям, чтобы помочь вам найти то, что вам нужно.
+![CatalogPage](https://github.com/Azrael3MU/Todayfashion/assets/125397218/fce19182-e0b3-4ebe-82e2-fcc64bcb2eab)
+
+# Поиск:
+используйте поле поиска, чтобы найти интересующие вас товары. Вы можете вводить ключевые слова, категории или фильтры для уточнения результатов.
+Просмотр продуктов: щелкните на продукт, чтобы узнать больше о нем, увидеть изображение, описание и цену.
+# Добавление в корзину:
+если вам понравился продукт, нажмите кнопку "Добавить в корзину", чтобы сохранить его для последующего оформления заказа.
+# Добавление в избранное:
+если вам интересен продукт, который вы хотите сохранить для последующего просмотра, вы можете добавить его в список избранных. Просто нажмите кнопку "Добавить в избранное" рядом с продуктом.
+# Оформление заказа:
+перейдите в корзину и нажмите кнопку "Оформить заказ", чтобы заполнить необходимую информацию и подтвердить покупку.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
-
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- CONTACT -->
 ## Контакты
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
-
+Кривенок Вадим (Разработчик) - @azraelmu
+Пя Ин Со (Дизайнер) - @MaminoGore
 Project Link: [https://github.com/Azrael3MU/Todayfashion](https://github.com/Azrael3MU/Todayfashion)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -172,9 +151,3 @@ Project Link: [https://github.com/Azrael3MU/Todayfashion](https://github.com/Azr
 [Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
 [Svelte-url]: https://svelte.dev/
 
-Оставьте пользователям контакты и инструкции, как связаться с командой разработки.
-
-
-
-## Источники
-Если вы чем-то вдохновлялись, расскажите об этом: где брали идеи, какие туториалы смотрели, ссылки на исходники кода. 
