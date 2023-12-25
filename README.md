@@ -6,11 +6,12 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
- ![docs](https://github.com/Azrael3MU/Todayfashion/assets/125397218/9f52f714-c40e-43d0-b656-0014d3ff77ce)
+  <a 
+    <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Приложение TodayFashion</h3>
-<h3 align="center">![Component 60](https://github.com/Azrael3MU/Todayfashion/assets/125397218/acc09b8e-4e32-4804-bcb5-4ef5ba96ad36)</h3>
+
 
 
 <!-- TABLE OF CONTENTS -->
@@ -35,13 +36,6 @@
   </ol>
 </details>
 
-- uses: Platane/snk@v3
-  with:
-    github_user_name: ${{ https://github.com/Azrael3MU/Todayfashion }}
-    outputs: |
-      dist/github-snake.svg
-      dist/github-snake-dark.svg?palette=github-dark
-      dist/ocean.gif?color_snake=blue&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
 
 <!-- ABOUT THE PROJECT -->
 ## О Проекте
@@ -76,11 +70,11 @@
 Стабильное интернет-соединение для загрузки данных о продуктах и оформления заказов.
 
 ### Установка
-1 Склонируйте репозиторий на ваше устройство: git clone https://github.com/your/repository.git.
-2 Откройте проект в Android Studio.
-3 Синхронизируйте проект с вашими зависимостями и библиотеками.
-4 Подключите устройство Android или запустите эмулятор.
-5 Нажмите кнопку "Run" в Android Studio, чтобы установить и запустить приложение на устройстве или эмуляторе.
+* Склонируйте репозиторий на ваше устройство: git clone https://github.com/Azrael3MU/Todayfashion
+* Откройте проект в Android Studio.
+* Синхронизируйте проект с вашими зависимостями и библиотеками.
+* Подключите устройство Android или запустите эмулятор.
+* Нажмите кнопку "Run" в Android Studio, чтобы установить и запустить приложение на устройстве или эмуляторе.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -90,24 +84,28 @@
 ## Usage
 
 После успешной установки вы будете перенаправлены на главный экран приложения. Вот несколько основных функций, которые вы можете использовать:
-![Loading screen](https://github.com/Azrael3MU/Todayfashion/assets/125397218/eff9cdc4-417b-4ce7-9831-64f3c61b0c33)![HomePage](https://github.com/Azrael3MU/Todayfashion/assets/125397218/b45d04f1-b56e-4fe6-9e59-24f787e7d08c)
 
-# Аутентификация и вход в аккаунт:
+![Loading screen](https://github.com/Azrael3MU/Todayfashion/assets/125397218/eff9cdc4-417b-4ce7-9831-64f3c61b0c33)
+![HomePage](https://github.com/Azrael3MU/Todayfashion/assets/125397218/b45d04f1-b56e-4fe6-9e59-24f787e7d08c)
+
+### Аутентификация и вход в аккаунт:
 для полноценного использования приложения, вам необходимо авторизоваться или создать аккаунт. Нажмите кнопку "Войти" в разделе аккаунта и введите свои учетные данные для входа, или нажмите на кнопку "Регистрация", если у вас еще нет учетной записи.
-![AutorizationPage](https://github.com/Azrael3MU/Todayfashion/assets/125397218/59451aad-7007-49d1-b095-414c89e85420)![RegistrationPage](https://github.com/Azrael3MU/Todayfashion/assets/125397218/70075e16-1b46-4251-9f4d-0a8d2de1c1ab)
 
-# Каталог:
+![AutorizationPage](https://github.com/Azrael3MU/Todayfashion/assets/125397218/59451aad-7007-49d1-b095-414c89e85420)
+![RegistrationPage](https://github.com/Azrael3MU/Todayfashion/assets/125397218/70075e16-1b46-4251-9f4d-0a8d2de1c1ab)
+
+### Каталог:
 После входа в аккаунт вы будете перенаправлены в раздел каталога, где вы сможете просмотреть доступные продукты. Каталог организован по категориям, чтобы помочь вам найти то, что вам нужно.
 ![CatalogPage](https://github.com/Azrael3MU/Todayfashion/assets/125397218/fce19182-e0b3-4ebe-82e2-fcc64bcb2eab)
 
-# Поиск:
+### Поиск:
 используйте поле поиска, чтобы найти интересующие вас товары. Вы можете вводить ключевые слова, категории или фильтры для уточнения результатов.
 Просмотр продуктов: щелкните на продукт, чтобы узнать больше о нем, увидеть изображение, описание и цену.
-# Добавление в корзину:
+### Добавление в корзину:
 если вам понравился продукт, нажмите кнопку "Добавить в корзину", чтобы сохранить его для последующего оформления заказа.
-# Добавление в избранное:
+### Добавление в избранное:
 если вам интересен продукт, который вы хотите сохранить для последующего просмотра, вы можете добавить его в список избранных. Просто нажмите кнопку "Добавить в избранное" рядом с продуктом.
-# Оформление заказа:
+### Оформление заказа:
 перейдите в корзину и нажмите кнопку "Оформить заказ", чтобы заполнить необходимую информацию и подтвердить покупку.
 
 
